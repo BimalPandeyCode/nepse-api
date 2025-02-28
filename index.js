@@ -35,7 +35,7 @@ async function runScript() {
     //  fetch last 7 market-days data
 
     let date = moment();
-    for (let i = 0; i <= 7; i++) {
+    for (let i = 0; i <= 10; i++) {
       try {
         // TODO : This doesn't seem to fetch today's data so I removed subtract 1, if this is a mistake remove this
         let dateStr = lastMarketDay(
